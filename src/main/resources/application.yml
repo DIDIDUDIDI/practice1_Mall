@@ -1,3 +1,10 @@
 #前端访问的后端的端口号，在前段文件config/dev.env.js下修改
 server:
   port: 8083
+#设置DB连接
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/project2_mall?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false
+    username: root
+    password:
